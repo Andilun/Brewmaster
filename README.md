@@ -1,7 +1,7 @@
 # Brewmaster
 Fermentation temperature control for mini fridge controlled rpi, smart plug and termostat.\
 To run the programm as is you need a DS18B20 installed/plugged in on your rpi
-,python\ 
+,python<br> 
 and python-kasa. See https://github.com/python-kasa/python-kasa for more information.
 
 #Example of a setting file\
