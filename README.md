@@ -2,6 +2,7 @@
 Fermentation temperature control for mini fridge controlled rpi, smart plug and termostat.
 
 #Example of a setting file
+(\ are used for formatting and should be removed in a real settings file)
 --------------------------
 #settings\
 LogFileName=brew.log\
@@ -26,4 +27,4 @@ Onoffdelay=15\
 1;5.56\
 1;2.78\
 !state=Lager\
-42;1.67\
+42;1.67
