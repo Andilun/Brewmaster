@@ -1,9 +1,9 @@
-package app;
+package Brewmaster;
 
 import java.io.File;
 
 /**
- * <h1>BrewMaster</h1> The BrewMaster program reads the temperature of a probe
+ * <h2>BrewMaster</h2> The BrewMaster program reads the temperature of a probe
  * connected to a raspberry pi and uses it<br>
  * to control the temperature of a refrigerator. It does this by switching the
  * refrigerator on<br>

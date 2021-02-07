@@ -1,11 +1,11 @@
-package app;
+package Brewmaster;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.LinkedList;
 import java.util.Scanner;
 
 /**
-*<h1>Settings</h1>
+*<h2>Settings</h2>
 *The settings class stores settings information dictating how the program should operates.
 *<h2>Ex. of settings file below</h2>
 *"<br>

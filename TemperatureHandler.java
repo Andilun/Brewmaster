@@ -1,4 +1,4 @@
-package app;
+package Brewmaster;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -9,7 +9,7 @@ import java.util.LinkedList;
 import java.util.Scanner;
 
 /**
- * <h1>TemperatureHandler</h1> The PowerSocket class is used to control a
+ * <h2>TemperatureHandler</h2> The PowerSocket class is used to control a
  * wireless relay
  * 
  * @author Anders Lunde
@@ -226,7 +226,7 @@ public class TemperatureHandler {
 	/**
 	 * Checks if temperature {@link #currentTemp} is in the acceptable range of
 	 * {@link Settings#tempErrorMarginPlus} and
-	 * {@link settings#tempErrorMarginMinus} if {@link Settings#hasHeater} is true
+	 * {@link Settings#tempErrorMarginMinus} if {@link Settings#hasHeater} is true
 	 * and {@link PowerSocket#waitBetweenPowerSwitch} is false and it's to cold it
 	 * will turn on {@link #heater} by calling {@link PowerSocket#turnOn} or turn
 	 * off {@link #heater} by calling {@link PowerSocket#turnOff} if it's too hot.
@@ -271,8 +271,15 @@ public class TemperatureHandler {
 
 		}
 	}
-
+	/**
+	 * a {@link Instant} used to store a day after the current day
+	 * @see #updateDay
+	 */
 	private Instant tomorrow = null;
+	/**
+	 * a {@link Integer} used to store total amount of seconds in a day.
+	 * @see #updateDay
+	 */
 	private final int secondsInADay = 86400;
 
 	/**
@@ -380,7 +387,7 @@ public class TemperatureHandler {
 	}
 
 	/**
-	 * A list containing {@link String} from {@link logTemps}
+	 * A list containing {@link String} from logTemps
 	 * 
 	 * @see #logList
 	 */

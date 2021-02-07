@@ -1,8 +1,8 @@
-package app;
+package Brewmaster;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 /**
-*<h1>TempDateTime</h1>
+*<h2>TempDateTime</h2>
 *The TempDateTime class is used to store and format temperature and date, used for ease of storage in lists
 *@author  Anders Lunde
 *@version 0.1

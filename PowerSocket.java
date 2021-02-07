@@ -1,10 +1,10 @@
-package app;
+package Brewmaster;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.time.Duration;
 import java.time.Instant;
 /**
-*<h1>PowerSocket</h1>
+*<h2>PowerSocket</h2>
 *The PowerSocket class is used to control a wireless relay
 *@author  Anders Lunde
 *@version 0.1

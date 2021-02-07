@@ -1,4 +1,4 @@
-package app;
+package Brewmaster;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -7,7 +7,7 @@ import java.net.Socket;
 import java.util.LinkedList;
 
 /**
- * <h1>ServerThread</h1> The ServerThread class is used to as a server for an
+ * <h2>ServerThread</h2> The ServerThread class is used to as a server for an
  * android monitor temprature monitor app.
  * 
  * @author Anders Lunde
@@ -41,7 +41,7 @@ class ServerThread implements Runnable {
 	/**
 	 * Constructor for {@link ServerThread}
 	 * 
-	 * @param TemperatureHandler
+	 * @param th #TemperatureHandler
 	 */
 	ServerThread(TemperatureHandler th) {
 		this.th = th;
@@ -58,12 +58,11 @@ class ServerThread implements Runnable {
 	 * maxTemp,daysLastCheck and state. if at any point an {@link IOException}
 	 * occurs it will start a new thread and try to run again.
 	 * 
-	 * @see TempratureHandeler#getMinTemp
-	 * @see TempratureHandeler#getCurrentTemp
-	 * @see TempratureHandeler#getMaxTemp
-	 * @see TempratureHandeler#getDaysLastCheck
-	 * @see TempratureHandeler#getState
-	 * @error IOException
+	 * @see TemperatureHandler#getMinTemp
+	 * @see TemperatureHandler#getCurrentTemp
+	 * @see TemperatureHandler#getMaxTemp
+	 * @see TemperatureHandler#getDaysLastCheck
+	 * @see TemperatureHandler#getState
 	 */
 	@Override
 	public void run() {
