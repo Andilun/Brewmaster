@@ -1,7 +1,7 @@
 # Brewmaster
 Fermentation temperature control for mini fridge controlled rpi, smart plug and termostat.
 
-#Example of a setting file
+#Example of a setting file\
 (\ are used for formatting and should be removed in a real settings file)
 --------------------------
 #settings\
